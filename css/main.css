@@ -1,0 +1,56 @@
+.margin-header {
+	margin: 20px 0 0 0;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+hr {
+	border: 1.5px solid #c2c2a3;
+}
+
+.main-img {
+	width: 100%;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.margin-img {
+	margin: 15px 0;
+}
+
+.work-img {
+	width: 100%;
+	height: auto; 
+}
+
+.img-caption {
+	margin-top: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.header-uppercase {
+	text-transform: uppercase;
+}
+
+.link-align {
+	text-align: center;
+}
