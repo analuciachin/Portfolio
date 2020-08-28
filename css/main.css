@@ -3,9 +3,9 @@
 }
 
 .img-circle {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    border-radius: 25%;
+    width: 350px;
+    height: 400px;
     float: left;
 }
 
