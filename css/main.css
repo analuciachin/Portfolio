@@ -1,13 +1,20 @@
-.margin-header {
-	margin: 20px 0 0 0;
-}
-
 .img-circle {
     border-radius: 25%;
     width: 350px;
     height: 400px;
     float: left;
 }
+
+.project-img {
+	width: 400px;
+	height: 200px;
+}
+
+/*.margin-header {
+	margin: 20px 0 0 0;
+}
+
+
 
 .container {
 	max-width: 1200px;
@@ -54,3 +61,5 @@ hr {
 .link-align {
 	text-align: center;
 }
+
+*/
