@@ -3,10 +3,12 @@ html,body {
 }
 
 .page {
-	background: #c4dbf6;
-	height: 100%;
 	padding-left: 30px;
 	padding-right: 30px;
+}
+
+.page-bg-color {
+	background: #c4dbf6;
 }
 
 .picture-circle {
@@ -63,8 +65,8 @@ a {
 
 .main-text-header {
 	font-size: 2.6vw;
-	margin-top: 1.5em;
-	margin-bottom: 0.8em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 	color: #3b8beb;
 }
 
@@ -87,10 +89,25 @@ a {
 }
 
 .project-img {
-	width: 20%;
+	width: 80%;
 	height: auto;
+	margin-bottom: 2vw;
 }
 
+.projet-desc-h2 {
+	font-size: 2vw;
+	line-height: 2.2vw;
+	margin-bottom: 2vw;
+}
+
+.project-p {
+	font-size: 1.3vw;
+	line-height: 1.5vw;
+}
+
+.project-li {
+	font-size: 1.3vw;
+}
 
 .contact-main-content{
 	margin-top: 5vw;
@@ -124,6 +141,22 @@ a {
 	font-size: 1.3vw;
 	line-height: 1.6vw;;
 }
+
+.contact-info-margin {
+	margin-left: 5vw;
+}
+
+.button {
+	text-decoration: none;
+	background-color: #e7e3d4;
+	color: #8590aa;
+	padding: 3px 7px;
+	border-top: 1px solid #8590aa;
+	border-right: 1px solid #8590aa;
+	border-bottom: 1px solid #8590aa;
+	border-left: 1px solid #8590aa;
+}
+
 
 /*html,body,.container {
 	height:100%;
