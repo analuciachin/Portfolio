@@ -13,7 +13,7 @@ html,body {
 
 .picture-circle {
 	border-radius: 50%;
-	width: 4%;
+	width: 45px;
 	height: auto;
 	float: left;
 }
@@ -64,7 +64,7 @@ a {
 .main-text-header {
 	font-size: 2.8vw;
 	margin-top: 2vw;
-	margin-bottom: 1vw;;
+	margin-bottom: 1vw;
 	color: #3b8beb;
 }
 
