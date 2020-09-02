@@ -47,10 +47,8 @@ a {
 }
 
 .computer-img {
-	/*border-radius: 50%;*/
 	width: 120%;
 	height: auto;
-	/*float: left;*/
 }
 
 .main-content-index {
@@ -64,15 +62,15 @@ a {
 }
 
 .main-text-header {
-	font-size: 2.6vw;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
+	font-size: 2.8vw;
+	margin-top: 2vw;
+	margin-bottom: 1vw;;
 	color: #3b8beb;
 }
 
 .main-text {
-	font-size: 1.8em;
-	margin-top: 0.2em;
+	font-size: 1.8vw;
+	margin-top: 0.5vw;
 }
 
 
@@ -156,165 +154,3 @@ a {
 	border-bottom: 1px solid #8590aa;
 	border-left: 1px solid #8590aa;
 }
-
-
-/*html,body,.container {
-	height:100%;
-	width: 100%;
-}
-
-.nav-style {
-	background: #f4976c;
-	padding: 3em;
-	display: flex;
-	flex-direction: column;
-	/*justify-content: space-between;
-	height: 100vh;
-}
-
-.nav-li-font {
-	font-size: 2vw;
-	line-height: 2em;
-}
-
-.content-style {
-	background: #fbe8a6;
-	padding: 10em 5em 5em 30em;
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-}
-
-.nav-ul {
-	list-style-type: none;
-}
-
-.my-auto {
-	margin-top: auto;
-	margin-bottom: auto;
-}
-
-.img-picture {
-    border-radius: 25%;
-    width: 350px;
-	height: 400px;
-}
-*/
-
-/*
-.container {
-    display:table;
-    width: 100%;
-    margin-top: -50px;
-    padding: 50px 0 0 0; 
-    box-sizing: border-box;
-}
-
-.row {
-    height: 100%;
-    display: table-row;
-}
-
-.row .no-float {
-  display: table-cell;
-  float: none;
-}
-
-
-.nav-bg-color {
-	background-color: #f4976c;
-}
-
-.nav-li-font {
-	font-size: 3vw;
-}
-
-.content-bg-color {
-	background-color: #fbe8a6; 
-}
-*/
-/*.center {
-	margin-top: auto;
-}
-
-.img-circle {
-    border-radius: 25%;
-    width: 350px;
-    height: 400px;
-    float: left;
-}
-
-.project-img {
-	width: 400px;
-	height: 200px;
-}
-
-.nav-bg-color {
-	background-color: #f4976c;
-}
-
-.nav-li-font {
-	font-size: 3vw;
-}
-
-.content-bg-color {
-	background-color: #fbe8a6; 
-}
-
-
-*/
-
-
-/*.margin-header {
-	margin: 20px 0 0 0;
-}
-
-
-
-.container {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 50px;
-}
-
-hr {
-	border: 1.5px solid #c2c2a3;
-}
-
-.main-img {
-	width: 100%;
-}
-
-.align-right {
-	text-align: right;
-}
-
-.align-left {
-	text-align: left;
-}
-
-.margin-img {
-	margin: 15px 0;
-}
-
-.work-img {
-	width: 100%;
-	height: auto; 
-}
-
-.img-caption {
-	margin-top: 10px;
-	font-size: 20px;
-	text-transform: uppercase;
-	text-align: center;
-}
-
-.header-uppercase {
-	text-transform: uppercase;
-}
-
-.link-align {
-	text-align: center;
-}
-
-*/
