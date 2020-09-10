@@ -68,16 +68,69 @@ html,body {
 .about-h1 {
 	color: #3b8beb;
 	font-size: 3.5em;
-	padding-top: 3rem;
+	padding-top: 2rem;
 	padding-bottom: 3rem;
 }
 
 .about-p {
+	color: #8590aa;
 	font-size: 1.5em;
 	line-height: 1.8em;
 	margin-top: 0.2em;
 }
 
+/* Portfolio */
+
+.portfolio-padding {
+	padding-bottom: 3rem;
+}
+
+.portfolio-h1 {
+	color: #3b8beb;
+	font-size: 3.5em;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+}
+
+.project-img {
+	width: 80%;
+	height: auto;
+	margin-bottom: 1.5rem;
+}
+
+.project-img:hover {
+	transition: transform .5s ease;
+	transform: scale(1.05);
+}
+
+.projet-desc-h2 {
+	color: #8590aa;
+	font-size: 2em;
+	line-height: 2.1em;
+	margin-bottom: 1.5rem;
+}
+
+.project-p {
+	color: #8590aa;
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+
+.project-li {
+	color: #8590aa;
+	font-size: 1.2em;
+}
+
+.button {
+	text-decoration: none;
+	background-color: #e7e3d4;
+	color: #8590aa;
+	padding: 3px 7px;
+	border-top: 1px solid #8590aa;
+	border-right: 1px solid #8590aa;
+	border-bottom: 1px solid #8590aa;
+	border-left: 1px solid #8590aa;
+}
 
 /*--- Media Queries ---*/
 @media (max-width: 1300px) {
@@ -106,6 +159,7 @@ html,body {
 		line-height: 1.8em;
 		margin-top: 0.2em;
 	}
+
 }
 
 
