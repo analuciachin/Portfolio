@@ -66,30 +66,29 @@ html,body {
 	margin-top: 1rem;
 }
 
-.swap-on-hover {
+.flag-container {
 	position: relative;	
-	margin:  0 auto;
+	/*margin:  0 auto;*/
+	margin: 2rem auto;
 	max-width: 8em;
 }
 
-.swap-on-hover img {
-	position: absolute;
-	top:0;
-	left:0;
-	overflow: hidden;
-	/* Sets the width and height for the images*/
+.flag {
 	width: 8em;
 	height: 4em;
 }
 
-.swap-on-hover .swap-front-image {
-	z-index: 9999;
-	transition: opacity .5s linear;
-	cursor: pointer;
-}
-
-.swap-on-hover:hover > .swap-front-image{
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
 	opacity: 0;
+	transition: 2s ease;
+  }
+
+.flag-container:hover .overlay {
+	opacity: 1;
+	cursor: pointer;
 }
 
 /* hand wave animation from https://jarv.is/notes/css-waving-hand-emoji/*/
