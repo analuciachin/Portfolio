@@ -5,46 +5,44 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-		<link href="css/main.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>		
 		<title>🇨🇦🇧🇷Ana Lucia Chin</title>
 	</head>
-	
-	<body class='page-bg-color'>
-		<div class='container-fluid h-100 page'>
-			<div class='row'>
-				<div class='col-md-10 offset-md-1'>
-					<header class="margin-header">
-						<img src='images/photo_ana.jpg' alt="Ana's picture" class='picture-circle' />
-						<ul class='list-unstyled list-inline align-right'>
-							<li class='list-inline-item'><a href='index.html' class='nav-li'>Home</a></li>
-							<li class='list-inline-item'><a href='about.html' class='nav-li'>About</a></li>
-							<li class='list-inline-item'><a href='portfolio.html' class='nav-li'>Portfolio</a></li>
-							<li class='list-inline-item'><a href='#' class='nav-li'>Blog</a></li>
-							<li class='list-inline-item'><a href='contact.html' class='nav-li'>Contact</a></li>
-						</ul>
-					</header>
-				</div>
-			</div>
 
-			<div class='row'>
-				<div class="col-md-12">
-					<hr class='hr-element'>
-				</div>	
-			</div>
+    
+    <!-- Navbar -->
+    <nav class='navbar navbar-expand-md navbar-light sticky-top navbar-bg-color'>
+        <div class='container-fluid'>
+            <img src='images/photo_ana_v1.png' alt="Ana's picture" class='picture-circle' />
+            <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarResponsive'>
+                <span class='navbar-toggler-icon'></span>
+            </button>
+            <div class='collapse navbar-collapse' id='navbarResponsive'>
+                <ul class='navbar-nav ml-auto'>
+                    <li class='nav-item active'><a href='index.html' class='nav-li'>Home</a></li>
+                    <li class='nav-item'><a href='about.html' class='nav-li'>About</a></li>
+                    <li class='nav-item'><a href='portfolio.html' class='nav-li'>Portfolio</a></li>
+                    <li class='nav-item'><a href='blog.html' class='nav-li'>Blog</a></li>
+                    <li class='nav-item'><a href='contact.html' class='nav-li'>Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <body class='page-bg-color'>
+        <div class='container-fluid padding'>
 
-            <div class="row main-content">
+            <div class="row portfolio-padding">
                 <div class="col-md-10 offset-md-1">
-                    <h1 class='font-italic main-h1'>Featured Work</h1>
+                    <h1 class='font-italic portfolio-h1'>Featured Work</h1>
                 </div>
             </div>
 
-
-            <div class="row main-content">
+            <div class="row portfolio-padding">
                 <div class="col-md-5 offset-md-1">
                     <figure>
                         <img src='images/arcade_game.png' alt='Arcade Game Project' class='project-img'>
@@ -87,7 +85,7 @@
                 </div>
             </div>
 
-            <div class="row main-content">
+            <div class="row portfolio-padding">
                 <div class="col-md-5 offset-md-1">
                     <figure>
                         <img src='images/montreal_map.png' alt='Neighborhood Map Project' class='project-img' />
@@ -137,7 +135,7 @@
             </div>
 
 
-            <div class="row main-content">
+            <div class="row portfolio-padding">
                 <div class="col-md-5 offset-md-1">
                     <figure>
                         <img src='images/memory_game.png' alt='Memory Game Project' class='project-img' />
@@ -179,7 +177,7 @@
                 </div>
             </div>
 
-            <div class="row main-content">
+            <div class="row portfolio-padding">
                 <div class="col-md-5 offset-md-1">
                     <figure>
                         <img src='images/my_movies.png' alt='My Movies Project' class='project-img' />
@@ -228,10 +226,5 @@
             </div>
 
         </div>
-
-            <script src='https://code.jquery.com/jquery-3.0.0.min.js'></script>
-            <script src='js/popper.min.js'></script>
-            <script src='js/bootstrap.min.js'></script>
     </body>
-
 </html>

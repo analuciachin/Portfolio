@@ -36,6 +36,7 @@ html,body {
 }
 
 .nav-li {
+	text-decoration: none !important;
 	font-size: 1.3em !important;
 	color: #e7e3d4;
 }
@@ -46,9 +47,8 @@ html,body {
 }
 
 .index-h1-padding {
-	padding-top: 3rem;
+	padding-top: .1rem;
 }
-
 
 .index-h1 {
 	color: #3b8beb;
@@ -56,11 +56,60 @@ html,body {
 	margin-bottom: 1.3rem;
 }
 
-
 .index-h3 {
 	margin-top: 1rem;
-	color: #8590aa;
+	color: #5e6a87;
 	margin-bottom: 1rem;
+}
+
+.flag-margin {
+	margin-top: 1rem;
+}
+
+.swap-on-hover {
+	position: relative;	
+	margin:  0 auto;
+	max-width: 8em;
+}
+
+.swap-on-hover img {
+	position: absolute;
+	top:0;
+	left:0;
+	overflow: hidden;
+	/* Sets the width and height for the images*/
+	width: 8em;
+	height: 4em;
+}
+
+.swap-on-hover .swap-front-image {
+	z-index: 9999;
+	transition: opacity .5s linear;
+	cursor: pointer;
+}
+
+.swap-on-hover:hover > .swap-front-image{
+	opacity: 0;
+}
+
+/* hand wave animation from https://jarv.is/notes/css-waving-hand-emoji/*/
+.wave {
+	animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+	animation-duration: 2.5s;        /* Change to speed up or slow down */
+	animation-iteration-count: infinite;  /* Never stop waving :) */
+	transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+	display: inline-block;
+  }
+  
+@keyframes wave-animation {
+	0% { transform: rotate( 0.0deg) }
+	10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+	20% { transform: rotate(-8.0deg) }
+	30% { transform: rotate(14.0deg) }
+	40% { transform: rotate(-4.0deg) }
+	50% { transform: rotate(10.0deg) }
+	60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+100% { transform: rotate( 0.0deg) }
 }
 
 /* About Me */
@@ -68,12 +117,11 @@ html,body {
 .about-h1 {
 	color: #3b8beb;
 	font-size: 3.5em;
-	padding-top: 2rem;
 	padding-bottom: 3rem;
 }
 
 .about-p {
-	color: #8590aa;
+	color: #5e6a87;
 	font-size: 1.5em;
 	line-height: 1.8em;
 	margin-top: 0.2em;
@@ -88,7 +136,6 @@ html,body {
 .portfolio-h1 {
 	color: #3b8beb;
 	font-size: 3.5em;
-	padding-top: 2rem;
 	padding-bottom: 3rem;
 }
 
@@ -104,20 +151,20 @@ html,body {
 }
 
 .projet-desc-h2 {
-	color: #8590aa;
+	color: #495369;
 	font-size: 2em;
 	line-height: 2.1em;
 	margin-bottom: 1.5rem;
 }
 
 .project-p {
-	color: #8590aa;
+	color: #5e6a87;
 	font-size: 1.2em;
 	line-height: 1.4em;
 }
 
 .project-li {
-	color: #8590aa;
+	color: #495369;
 	font-size: 1.2em;
 }
 
@@ -125,11 +172,16 @@ html,body {
 	text-decoration: none;
 	background-color: #e7e3d4;
 	color: #8590aa;
-	padding: 3px 7px;
-	border-top: 1px solid #8590aa;
-	border-right: 1px solid #8590aa;
-	border-bottom: 1px solid #8590aa;
-	border-left: 1px solid #8590aa;
+	padding: 4px 8px;
+	border: 1px solid #8590aa;
+
+}
+
+.button:hover {
+	text-decoration: none;
+	background-color: #c8bf9d;
+	color: #8590aa;
+	border: 2px solid #8590aa;
 }
 
 /*--- Media Queries ---*/
