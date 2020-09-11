@@ -169,12 +169,13 @@ html,body {
 }
 
 .button {
+	cursor: pointer;
+	position: relative;
 	text-decoration: none;
 	background-color: #e7e3d4;
 	color: #8590aa;
 	padding: 4px 8px;
 	border: 1px solid #8590aa;
-
 }
 
 .button:hover {
@@ -183,6 +184,53 @@ html,body {
 	color: #8590aa;
 	border: 2px solid #8590aa;
 }
+
+
+/* Contact */
+
+.contact-img {
+	width: 100%;
+	height: auto;
+}
+
+.contact-text {
+	font-size: 1.5em;
+	line-height: 2em;
+	color: #595959;
+}
+
+.contact-name {
+	margin-top: 1rem;
+	font-size: 2.6em;
+	color: #595959;
+}
+
+.contact-desc {
+	font-size: 1.3em;
+	line-height: 1.6em;
+	color: #595959;
+}
+
+.info-margin {
+	margin-top: 3rem;
+}
+
+
+.icon-style {
+	font-size: 2em;
+	text-decoration: none;
+	margin: 1.5rem;
+	color: #595959;
+	position: relative;
+	top: 0;
+	transition: top ease 0.5s;
+}
+
+.icon-style:hover {
+	top: -10px;
+	color: #b23850;
+}
+
 
 /*--- Media Queries ---*/
 @media (max-width: 1300px) {
@@ -202,7 +250,7 @@ html,body {
 	}
 
 	.index-h1-padding {
-		padding-top: 1rem;
+		padding-top: .1rem;
 	}
 
 	/* About Me */
