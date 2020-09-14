@@ -62,13 +62,13 @@ html,body {
 	margin-bottom: 1rem;
 }
 
+/* flag animation */
 .flag-margin {
 	margin-top: 1rem;
 }
 
 .flag-container {
 	position: relative;	
-	/*margin:  0 auto;*/
 	margin: 2rem auto;
 	max-width: 8em;
 }
@@ -171,19 +171,52 @@ html,body {
 	cursor: pointer;
 	position: relative;
 	text-decoration: none;
-	background-color: #e7e3d4;
-	color: #8590aa;
-	padding: 4px 8px;
-	border: 1px solid #8590aa;
+	background-color: #e7b1bc;
+	color: #343b4b;
+	padding: 6px 12px;
+	border: 1px solid #ce6479;
+	letter-spacing: 2px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px; 
+	position: relative;
+  	transition: all .35s;
 }
 
+.button span{
+	position: relative;
+	z-index: 2;
+}
+
+.button:after{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	background-color: #9b3146;
+	transition: all .35s;
+}
+  
+.button:hover {
+	text-decoration: none;
+	color: #e1e4ea;
+}
+  
+.button:hover:after{
+	width: 100%;
+}
+
+/*
 .button:hover {
 	text-decoration: none;
 	background-color: #c8bf9d;
 	color: #8590aa;
 	border: 2px solid #8590aa;
 }
-
+*/
 
 /* Contact */
 
