@@ -47,7 +47,7 @@ html,body {
 }
 
 .index-h1-padding {
-	padding-top: .1rem;
+	padding-top: 0;
 }
 
 .index-h1 {
@@ -209,15 +209,6 @@ html,body {
 	width: 100%;
 }
 
-/*
-.button:hover {
-	text-decoration: none;
-	background-color: #c8bf9d;
-	color: #8590aa;
-	border: 2px solid #8590aa;
-}
-*/
-
 /* Contact */
 
 .contact-img {
@@ -265,49 +256,54 @@ html,body {
 
 
 /*--- Media Queries ---*/
-@media (max-width: 1300px) {
+
+@media (min-width: 1200px) {
 	.computer-img {
 		width: 100%;
 		height: auto;
 	}
 
 	.index-h1 {
-		font-size: 2.5em;
+		font-size: 3.2em;
 		margin-bottom: 1.5rem;
 	}
 
 	.index-h3 {
-		font-size: 1.4em;
+		font-size: 2.6em;
 		margin-bottom: .8rem;
 	}
 
 	.index-h1-padding {
-		padding-top: .1rem;
+		padding-top: 0;
 	}
 
 	/* About Me */
+	.about-h1 {
+		font-size: 4em;
+		color: #3b8beb;
+	}
+
 	.about-p {
-		font-size: 2em;
+		font-size: 1.8em;
 		line-height: 1.8em;
 		margin-top: 0.2em;
 	}
-
+  
 }
 
-
-@media (max-width: 992px) {
-	.padding {
-		padding-top: 6rem;
-		padding-bottom: 2rem;
+@media (min-width: 1025px) and (max-width: 1199px) {
+	.computer-img {
+		width: 80%;
+		height: auto;
 	}
 
 	.index-h1 {
-		font-size: 3.5em;
+		font-size: 3.8em;
 		margin-bottom: 1.5rem;
 	}
 
 	.index-h3 {
-		font-size: 2em;
+		font-size: 2.5em;
 		margin-bottom: .8rem;
 	}
 
@@ -315,36 +311,61 @@ html,body {
 		padding-top: 4rem;
 	}
 
+	/* About Me */
+	.about-h1 {
+		font-size: 4em;
+		color: #3b8beb;
+	}
+
+	.about-p {
+		font-size: 1.8em;
+		line-height: 1.8em;
+		margin-top: 0.2em;
+	}
+  
 }
 
-@media (max-width: 768px) {
-	.navbar-nav {
-		padding-top: 1rem;
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	.padding {
+		padding-top: 6rem;
+		padding-bottom: 2rem;
 	}
 
 	.index-h1 {
-		font-size: 2.5em;
+		font-size: 3.8em;
 		margin-bottom: 1.5rem;
 	}
 
 	.index-h3 {
-		font-size: 1.5em;
+		font-size: 2.5em;
 		margin-bottom: .8rem;
 	}
 
 	.index-h1-padding {
-		padding-top: 5rem;
+		padding-top: 4rem;
+	}
+
+	.flag-container {
+		position: relative;	
+		margin: 2rem auto;
+		max-width: 8em;
+	}
+	
+	.flag {
+		width: 8em;
+		height: 4em;
 	}
 
 	/* About Me */
-	.about-p {
-		font-size: 1.9em;
-		line-height: 1.8em;
-		margin-top: 0.2em;
+	.about-h1 {
+		font-size: 3.8em;
+		color: #3b8beb;
 	}
+  
 }
 
-@media (max-width: 576px) {
+
+@media (min-width: 481px) and (max-width: 767px) {
 	.navbar-nav {
 		padding-top: 1rem;
 	}
@@ -368,9 +389,64 @@ html,body {
 		padding-top: 5rem;
 	}
 
+	.flag-container {
+		position: relative;	
+		margin: 2rem auto;
+		max-width: 6em;
+	}
+	
+	.flag {
+		width: 6em;
+		height: 3em;
+	}
+
 	/* About Me */
 	.about-h1 {
 		font-size: 3.8em;
 		color: #3b8beb;
 	}
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.navbar-nav {
+		padding-top: 1rem;
+	}
+
+	.nav-li {
+		font-size: 1em !important;
+		color: #e7e3d4;
+	}
+
+	.index-h1 {
+		font-size: 1.8em;
+		margin-bottom: 1rem;
+	}
+
+	.index-h3 {
+		font-size: 1.3em;
+		margin-bottom: .2rem;
+	}
+
+	.index-h1-padding {
+		padding-top: 5rem;
+	}
+
+	.flag-container {
+		position: relative;	
+		margin: 2rem auto;
+		max-width: 6em;
+	}
+	
+	.flag {
+		width: 6em;
+		height: 3em;
+	}
+
+	/* About Me */
+	.about-h1 {
+		font-size: 3.2em;
+		color: #3b8beb;
+	}
+
 }
