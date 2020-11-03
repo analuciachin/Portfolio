@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:400');
 
 html,body {
 	height: 100%;
 	width: 100%;
-	font-family: 'Poppins', sans-serif;
+	/*font-family: 'Poppins', sans-serif;*/
+	font-family: 'PT Serif', serif;
 }
 
 .navbar-bg-color {
@@ -48,6 +50,8 @@ html,body {
 
 .index-h1 {
 	color: #3b8beb;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
 }
 
 .index-h3 {
