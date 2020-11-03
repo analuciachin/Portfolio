@@ -64,7 +64,7 @@ html,body {
 
 
 /* flag animation */
-.flag-margin {
+/* .flag-margin {
 	margin-top: 1rem;
 }
 
@@ -90,7 +90,7 @@ html,body {
 .flag-container:hover .overlay {
 	opacity: 1;
 	cursor: pointer;
-}
+} */
 
 /* hand wave animation from https://jarv.is/notes/css-waving-hand-emoji/*/
 .wave {
@@ -184,7 +184,7 @@ html,body {
   	transition: all .35s;
 }
 
-.button span{
+.button span {
 	position: relative;
 	z-index: 2;
 }
@@ -211,7 +211,22 @@ html,body {
 	width: 100%;
 }
 
+/* Blog */
+
+.blog-h1 {
+	color: #3b8beb;
+	font-size: 3.5em;
+	padding-bottom: 3rem;
+} 
+
 /* Contact */
+
+.contact-h1 {
+	color: #3b8beb;
+	font-size: 3.5em;
+	padding-bottom: 3rem;
+} 
+
 
 .contact-img {
 	width: 100%;
