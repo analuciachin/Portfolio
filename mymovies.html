@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<link href="css/style.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>		
+		<title>Ana Lucia Chin</title>
+	</head>
+
+    
+    <!-- Navbar -->
+    <nav class='navbar navbar-expand-md navbar-light sticky-top navbar-bg-color'>
+        <div class='container-fluid'>
+            <img src='images/photo_ana_v1.png' alt="Ana's picture" class='picture-circle' />
+            <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarResponsive'>
+                <span class='navbar-toggler-icon'></span>
+            </button>
+            <div class='collapse navbar-collapse' id='navbarResponsive'>
+                <ul class='navbar-nav ml-auto'>
+                    <li class='nav-item active'><a href='index.html' class='nav-li'>Home</a></li>
+                    <li class='nav-item'><a href='about.html' class='nav-li'>About</a></li>
+                    <li class='nav-item'><a href='portfolio.html' class='nav-li'>Portfolio</a></li>
+                    <li class='nav-item'><a href='blog.html' class='nav-li'>Blog</a></li>
+                    <li class='nav-item'><a href='contact.html' class='nav-li'>Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <body class='page-bg-color'>
+        <div class='container-fluid padding'>
+            <div class='row text-center main-padding'>
+              <div class='col-md-10 offset-md-1'>
+                <h1 class='font-italic project-detail-h1 text-justify'>My Movies</h1>
+                <p class='about-p text-justify'>After completing the Front-end development nanodegree from Udacity and the React course from TylerMcginnis.com. I have decided to create a project that was unique and where I could practice the React knowledge I have gained in those courses. That is how My Movies project was born.</p>
+              </div>
+            </div>
+            <div class='row'>
+              <div class='col-md-5 offset-md-1 mt-4'>
+                <img src='images/mymovies_login.png' alt='My Movies Login Page' 
+                  class='d-block mx-auto img-w50' />
+              </div>
+              <div class='col-md-5 mt-4'>
+                <p class='about-p text-justify'>I have created a login page to learn how to simulate an API call using  promises.</p>
+                <p class='about-p text-justify'>username: abc / password: 123</p>
+              </div>
+            </div>
+
+            <div class='row'>
+              <div class='col-md-5 offset-md-1 mt-4'>
+                <p class='about-p text-justify'>After a successful login, the user is taken to the search page. In this page, the user can enter the period of the movie review.</p>
+              </div>
+              <div class='col-md-5 mt-4'>
+                <img src='images/mymovies_search.png' alt='My Movies Search Page' 
+                class='d-block mx-auto img-w50' />
+              </div>
+            </div>
+
+            <div class='row'>
+              <div class='col-md-5 offset-md-1 mt-4'>
+                <img src='images/mymovies_noreviews.png' alt='My Movies No Reviews Page' 
+                  class='d-block mx-auto img-w100' />
+              </div>
+              <div class='col-md-5 mt-4'>
+                <p class='about-p text-justify'>If there is no reviews in period, a message will be displayed to inform the user.</p>
+              </div>
+            </div>
+
+            <div class='row'>
+              <div class='col-md-5 offset-md-1 mt-4'>
+                <p class='about-p text-justify'>After the search is completed, up to 20 movies picked by the critics (according to NYT API) will be loaded to the 'All' tab.</p>
+              </div>
+              <div class='col-md-5 mt-4'>
+                <img src='images/mymovies_alldesktop.png' alt='My Movies No Reviews Page' 
+                  class='d-block mx-auto img-w100' />
+              </div>
+            </div>
+
+
+        </div>
+    </body>
+
+</html>
