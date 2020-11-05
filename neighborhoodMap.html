@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<link href="css/style.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>		
+		<title>💻 Ana Lucia Chin</title>
+	</head>
+
+    
+  <!-- Navbar -->
+  <nav class='navbar navbar-expand-md navbar-light sticky-top navbar-bg-color'>
+      <div class='container-fluid'>
+          <img src='images/photo_ana_v1.png' alt="Ana's picture" class='picture-circle' />
+          <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarResponsive'>
+              <span class='navbar-toggler-icon'></span>
+          </button>
+          <div class='collapse navbar-collapse' id='navbarResponsive'>
+              <ul class='navbar-nav ml-auto'>
+                  <li class='nav-item active'><a href='index.html' class='nav-li'>Home</a></li>
+                  <li class='nav-item'><a href='about.html' class='nav-li'>About</a></li>
+                  <li class='nav-item'><a href='portfolio.html' class='nav-li'>Portfolio</a></li>
+                  <li class='nav-item'><a href='blog.html' class='nav-li'>Blog</a></li>
+                  <li class='nav-item'><a href='contact.html' class='nav-li'>Contact</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+  <body class='page-bg-color'>
+    <div class='container-fluid padding'>
+        <div class='row text-center main-padding'>
+          <div class='col-md-10 offset-md-1'>
+            <h1 class='font-italic project-detail-h1 text-justify'>Neighborhood Map</h1>
+            <p class='about-p text-justify'>The Neighborhood Map was the last project from the Front-end development nanodegree curriculum at Udacity. The project had to be done in React and we had to build it from scratch. We were not given any initial code to work on, only the guidelines on how to complete the project.</p>
+            <p class='about-p text-justify'>The goal of this project was to develop a single page application featuring a map of a neighborhood.</p>
+            <p class='about-p text-justify'>Neighborhood Map shows the Montreal city featuring some turistic locations. A third-party data (Wikipedia API) gives us more details about each of these locations. The map also allows the user to browse the content in different ways.</p>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='col-md-5 offset-md-1 mt-4'>
+            <img src='images/neighborhoodmap/map_loaded.png' alt='Neighborhood Map' 
+              class='d-block mx-auto img-w100' />
+          </div>
+          <div class='col-md-5 mt-4'>
+            <p class='about-p text-justify'>Once the map is loaded, the user will see a list of the touristic places in Montreal on the left and a map of Montreal with the red location pins on the right side.</p>
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-md-5 offset-md-1 mt-4'>
+            <p class='about-p text-justify'>When a location pin is clicked, it will change its color to blue and some information regarding that location will show up with a link to the full Wikipedia article.</p>
+          </div>
+          <div class='col-md-5 mt-4'>
+            <img src='images/neighborhoodmap/map_pinclicked.png' alt='Neighborhood Map Pin Clicked' 
+              class='d-block mx-auto img-w100' />
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-md-5 offset-md-1 mt-4'>
+            <img src='images/neighborhoodmap/map_search.png' alt='Neighborhood Map Search Location' 
+              class='d-block mx-auto img-w100' />
+          </div>
+          <div class='col-md-5 mt-4'>
+            <p class='about-p text-justify'>The user can also search a location by typing its name in the search box above the location list. It will remove all other location pins but the one searched by the user.</p>
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-md-5 offset-md-1 mt-4'>
+            <p class='about-p text-justify'>Another way to browse through the content it is by clicking at an item in the location list. Clicking a location in the list will change its pin color to blue and show the information regarding that location.</p>
+          </div>
+          <div class='col-md-5 mt-4'>
+            <img src='images/neighborhoodmap/map_listclick.png' alt='Neighborhood Map List Item Clicked' 
+              class='d-block mx-auto img-w100' />
+            
+          </div>
+        </div>
+
+    </div>
+  </body>
+  
+</html>
