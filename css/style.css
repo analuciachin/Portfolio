@@ -114,19 +114,19 @@ html,body {
 
 /* About Me */
 
-.about-h1 {
+h1 {
 	color: #3b8beb;
 	font-size: 3.5em;
+	font-weight: bold;
 	padding-bottom: 3rem;
 }
 
-.about-p {
+.p-desc  {
 	color: #5e6a87;
 	font-size: 1.5em;
 	line-height: 1.8em;
 	margin-top: 0.2em;
 }
-
 
 /* Portfolio */
 
@@ -134,14 +134,8 @@ html,body {
 	padding-bottom: 3rem;
 }
 
-.portfolio-h1 {
-	color: #3b8beb;
-	font-size: 3.5em;
-	padding-bottom: 3rem;
-}
-
 .project-img {
-	width: 80%;
+	width: 100%;
 	height: auto;
 	margin-bottom: 1.5rem;
 }
@@ -213,23 +207,12 @@ html,body {
 
 /* Blog */
 
-.blog-h1 {
-	color: #3b8beb;
-	font-size: 3.5em;
-	padding-bottom: 3rem;
-} 
+
 
 /* Contact */
 
-.contact-h1 {
-	color: #3b8beb;
-	font-size: 3.5em;
-	padding-bottom: 3rem;
-} 
-
-
 .contact-img {
-	width: 100%;
+	width: 30%;
 	height: auto;
 }
 
@@ -241,12 +224,12 @@ html,body {
 
 .contact-name {
 	margin-top: 1rem;
-	font-size: 2.6em;
+	font-size: 2.3em;
 	color: #595959;
 }
 
 .contact-desc {
-	font-size: 1.3em;
+	font-size: 1.2em;
 	line-height: 1.6em;
 	color: #595959;
 }
@@ -280,12 +263,6 @@ html,body {
 	padding-bottom: 3rem;
 }
 
-.img-w50 {
-	width: 50%;
-	height: auto;
-	margin-bottom: 1.5rem;
-}
-
 .img-w100 {
 	width: 100%;
 	height: auto;
@@ -314,19 +291,13 @@ html,body {
 		font-size: 1.4em;
 	}
 
-
-/*
-	.index-h1-padding {
-		padding-top: 0;
-	}
-*/
 	/* About Me */
-	.about-h1 {
+	h1 {
 		font-size: 4em;
 		color: #3b8beb;
 	}
 
-	.about-p {
+	.p-desc  {
 		font-size: 1.8em;
 		line-height: 1.8em;
 		margin-top: 0.2em;
@@ -355,12 +326,12 @@ html,body {
 	}
 
 	/* About Me */
-	.about-h1 {
+	h1 {
 		font-size: 4em;
 		color: #3b8beb;
 	}
 
-	.about-p {
+	.p-desc  {
 		font-size: 1.8em;
 		line-height: 1.8em;
 		margin-top: 0.2em;
@@ -375,8 +346,8 @@ html,body {
 	}
 
 	.index-h1 {
-		font-size: 3.8em;
-		margin-bottom: 1.5rem;
+		font-size: 3.2em;
+		margin-bottom: 1rem;
 	}
 
 	.index-h3 {
@@ -400,11 +371,61 @@ html,body {
 	}
 
 	/* About Me */
-	.about-h1 {
+	h1 {
 		font-size: 3.8em;
 		color: #3b8beb;
 	}
+
+	/* Contact */
+	.contact-img {
+		width: 50%;
+		height: auto;
+	}
   
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.padding {
+		padding-top: 6rem;
+		padding-bottom: 2rem;
+	}
+
+	.index-h1 {
+		font-size: 3.2em;
+		margin-bottom: 1rem;
+	}
+
+	.index-h3 {
+		font-size: 2.5em;
+		margin-bottom: .8rem;
+	}
+
+	.index-h1-padding {
+		padding-top: 4rem;
+	}
+
+	.flag-container {
+		position: relative;	
+		margin: 2rem auto;
+		max-width: 8em;
+	}
+	
+	.flag {
+		width: 8em;
+		height: 4em;
+	}
+
+	/* About Me */
+	h1 {
+		font-size: 3.8em;
+		color: #3b8beb;
+	}
+
+	/* Contact */
+	.contact-img {
+		width: 50%;
+		height: auto;
+	}
 }
 
 
@@ -419,12 +440,12 @@ html,body {
 	}
 
 	.index-h1 {
-		font-size: 1.8em;
+		font-size: 2.9em;
 		margin-bottom: 1rem;
 	}
 
 	.index-h3 {
-		font-size: 1.3em;
+		font-size: 1.8em;
 		margin-bottom: .2rem;
 	}
 
@@ -444,9 +465,15 @@ html,body {
 	}
 
 	/* About Me */
-	.about-h1 {
+	h1 {
 		font-size: 3.8em;
 		color: #3b8beb;
+	}
+
+	/* Contact */
+	.contact-img {
+		width: 70%;
+		height: auto;
 	}
 }
 
@@ -462,12 +489,12 @@ html,body {
 	}
 
 	.index-h1 {
-		font-size: 1.8em;
+		font-size: 2em;
 		margin-bottom: 1rem;
 	}
 
 	.index-h3 {
-		font-size: 1.3em;
+		font-size: 1.5em;
 		margin-bottom: .2rem;
 	}
 
@@ -487,9 +514,14 @@ html,body {
 	}
 
 	/* About Me */
-	.about-h1 {
+	h1 {
 		font-size: 3.2em;
 		color: #3b8beb;
 	}
 
+	/* Contact */
+	.contact-img {
+		width: 100%;
+		height: auto;
+	}
 }
